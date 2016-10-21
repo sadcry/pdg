@@ -1,0 +1,68 @@
+.container {
+	margin: 0 auto;
+	display: block;
+	max-width: 1200px;
+	padding: 0px 20px;
+}
+
+.container-content {
+	display: block; 
+	max-width: 75%;
+}
+
+img {
+	display: block;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+/*-----------
+	RECYCLE
+-----------*/
+
+.black-box {
+	background-color: black;
+	padding: 2px 0px;
+		span {
+			color: white;
+			display: block;
+			text-align: center;
+		}
+}
+
+.text {
+	letter-spacing: 0.05em;
+	line-height: 1.5em;
+}	
+
+.bold, .black-box {
+	font-family: $fontSecondary;
+	font-weight: $fat;
+}
+
+.wideText {
+	letter-spacing: 0.125em;
+}
+
+.thin {
+	font-family: $fontSecondary;
+	font-weight: $regular;
+}
+
+.linebreak {
+	width: 100%;
+	border-bottom: .5px solid black;
+}
+
+.none {
+	display: none;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+.linebreak, .jekyll-post-title-sidebar, .intro-description, .intro-img-container, .black-box {margin-bottom: 15px;}

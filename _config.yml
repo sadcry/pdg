@@ -1,0 +1,9 @@
+
+title: Pampanga Developers
+email: your-email@domain.com
+description: Community of ICT professionals and students based in Central Luzon. 
+baseurl: "/pdg" # the subpath of your site, e.g. /blog
+url: "https://sadcry.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

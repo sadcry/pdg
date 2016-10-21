@@ -1,0 +1,33 @@
+<div class="sidebar">
+	<div class="black-box"><span>BE A VOLUNTEER!</span></div>
+	<div class="sidebar-volunteer-form">
+		<form action="http://formspree.io/{{ site.email }}" method="POST">
+			<input name="name" placeholder="Name" type="text">
+			<input name="email" placeholder="Email" type="email">
+			<input name="mobile" placeholder="Mobile" type="text">
+			<input name="mobile" placeholder="Nationality" type="text">
+			<select name="expertise" id="">
+				<option value="">Organizer</option>
+				<option value="">Developer</option>
+				<option value="">Graphics</option>
+				<option value="">Social Media Marketer/Marketing</option>
+				<option value="">Webmaster</option>
+				<option value="">Writer</option>
+				<option value="">Public Relation</option>
+			</select>
+			<select name="gender">
+				<option>Male</option>
+				<option>Female</option>
+			</select>
+			<button type="submit">Send</button>
+		</form>
+	</div>
+	<div class="sidebar-recent-events">
+	<div class="black-box"><span>RECENT EVENTS</span></div>
+	{% for post in site.posts limit: 3 %}
+		<div class="jekyll-post-img"><img src="{{site.baseurl}}/assets/img/{{ post.img }}" alt="{{ post.alt }}"></div>
+		<div class="jekyll-post-date bold text upper">{{ post.date | date: '%B %d, %Y' }} / EVENTS</div>
+		<div class="jekyll-post-title-sidebar bold text"> {{ post.title }}</div>
+	{% endfor %}
+	</div>
+</div>

@@ -1,0 +1,16 @@
+<html>
+	{% include head.html %}
+	<body>
+		<div class="container">
+			{% include nav.html %}
+			{% include linebreak.html %}
+			<div class="container-sidebar">
+			{% include sidebar.html %}
+			</div>
+			<div class="container-content">
+			{{ content }}
+			</div> <!--DIV FUCKING DIV-->
+		</div>
+	</body>
+	{% include scripts.html %}
+</html>

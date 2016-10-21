@@ -1,0 +1,65 @@
+---
+layout: default
+---
+<div class="bold text intro-description">WE ORGANIZE EVENTS WHICH ARE OPEN TO NEWBIES, DEVELOPERS, MANAGERS AND ORGRANIZATIONS WHO ARE INTERESTED IN DEVELOPING WEBSITES OR USE THEM AS PART OF THEIR PROJECTS
+</div>
+<div class="intro-img-container"><img src="{{site.baseurl}}/assets/img/google-io-event-pampanga-developers.jpg" alt=""></div>
+  	<div class="grid">
+  		<div class="grid-sizer"></div>
+	  	{% for post in site.posts %}
+	  	<div class="grid-item">
+			<div class="jekyll-top-item">
+			    <div class="jekyll-status bold text"><span>{{ post.status }}</span></div>
+			</div>
+
+		    <div class="jekyll-post-img"><img src="{{site.baseurl}}/assets/img/{{ post.img }}" alt="{{ post.alt }}"></div>
+		    <div class="jekyll-post-date bold text upper">{{ post.date | date: '%B %d, %Y' }} / EVENTS</div>
+		    <div class="jekyll-post-title bold text upper"> {{ post.title }}</div>
+		    {% include linebreak.html %}
+		    <div class="jekyll-post-excerpt text"> {{ post.excerpt }}</div>
+	    </div>
+       {% endfor %}
+    </div>	
+
+
+<div class="black-box bold text"><span>VOLUNTEERS</span></div>
+<div class="volunteers-container text">
+	<div class="volunteers-column">
+		Carissa Coles<br>	
+		Rachel Jaro<br>
+		Angela Nacpil<br>
+		Ramon Morales<br>
+		Angela Mildred Ramin<br>
+		Arnotld Boston<br>
+		Arnold Gundran<br>
+		Aubrey Suba<br>
+		Daniel Gomez<br>
+		Dolore Caligagan<br>
+		Francelene Sigua<br>
+		Gian Matthew Oronce<br>
+		Ginalyn Magpili<br>
+		Jan Sanchez<br>
+	</div>
+	<div class="volunteers-column">
+		Johnder Baul<br>
+		Jomari Tayag<br>
+		Joseph Trinidad<br>
+		Junella Camille Velasco<br>
+		Kelly Samson Cruz<br>
+		Lars Norlander<br>
+		Maria Veronica Pamintuan<br>
+		Nico Pineda<br>
+		Patricia Gonzalez<br>
+		Rainier Paolo Punzalan<br>
+		Richard Noromor<br>
+		Ronald Torres<br>
+		Rownee Gutierrez<br>
+		Steven Ball<br>
+	</div>
+	<div class="volunteers-column">
+		Teph Lacson<br>
+		Tjakoen Stolk<br>
+		Vincent Bulaun<br>
+		Yves Lorenzo Yee<br>
+	</div>
+</div>

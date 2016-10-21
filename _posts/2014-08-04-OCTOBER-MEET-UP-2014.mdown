@@ -1,0 +1,11 @@
+---
+title: October Meet up 2014
+status: ended
+tag: featured
+img: OCTOBER-MEET-UP-2014.PNG
+alt: October Meet up 2014
+excerpt_separator: <!--more-->
+---
+GBG Angeles supports Pampanga Developers Meet up GBG Angeles is supporting the upcoming Pampanga Developer's Meetup.
+<!--more--> 
+It uses a host of technologies to achieve this goal and is a technically complex feat that has to account for our perception and cognition. It has both entertainment and serious uses. Nowadays, different industries such us Healthcare, Entertainment, Automotive, Advertising, Education, Tourism, Space, Skilled Trades, and Military and Law Enforcements are using Virtual Reality in various capacities.

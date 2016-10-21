@@ -1,0 +1,31 @@
+---
+---
+/*-------------
+Google Fonts
+-------------*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Oswald:400,700');
+
+/*-------------
+Variables
+-------------*/
+/* font settings */
+$fontPrimary: 	'Merriweather', serif;
+$fontSecondary: 'Oswald', sans-serif;
+$regular:   400;
+$fat:      700;
+
+/* color */
+$default:	#000000;
+$featured:	#FF3A3A;
+$ended:		#CC181E;
+
+/*-------------
+-------------*/
+@import 'normalize';
+@import 'core';
+@import 'nav';
+@import 'intro';
+@import 'jekyllposts';
+@import 'volunteer';
+@import 'sidebar';
+@import 'form';
